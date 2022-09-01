@@ -11,8 +11,17 @@ The project is designed to implement a K8s Operator with as few tools as possibl
 ```
 $ make build-resource
 ```
-4. Write controller and add event handlers to informer.
+You may need to prepare the code generation tool by doing the following:
+```shell
+$ go get k8s.io/code-generator/cmd/defaulter-gen
+$ go get k8s.io/code-generator/cmd/client-gen
+$ go get k8s.io/code-generator/cmd/lister-gen
+$ go get k8s.io/code-generator/cmd/informer-gen
+$ go get k8s.io/code-generator/cmd/deepcopy-gen
+```
 
+
+4. Write controller and add event handlers to informer.
 
 # Usage
 
