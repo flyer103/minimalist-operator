@@ -25,7 +25,7 @@ build-resource: pre-build
 	"example:v1alpha1"
 
 .PHONY: build-operator
-build-operator: build-dirs
+build-operator: build-dirs build-resource
 	@docker run                                                            \
 	    --rm                                                               \
 	    -ti                                                                \
