@@ -5,7 +5,7 @@ The project is designed to implement a K8s Operator with as few tools as possibl
 1. Write CRD and register CR with kube-apiserver: [crd.yaml](./yaml/crd.yaml)
 2. Write resource definitions through code:
 
-![apis.png](./misc/apis/png)
+![apis.png](./misc/apis.png)
 
 3. Generate clients:
 ```
