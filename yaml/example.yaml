@@ -1,0 +1,6 @@
+apiVersion: product.company.com/v1alpha1
+kind: Example
+metadata:
+  name: demo
+spec:
+  nginx: 1.23.1
